@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>TravelBloom</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><input type="text" id="input" placeholder=""> </li>
+                <li><button id='btnSearch' onclick="search()">Search</button>
+                <li><button id='btnClear' onclick="clearResults()">Clear</button>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <h2>Find your destination</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius nec dui id eleifend. Class aptent
+                taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ornare interdum
+                quam at egestas. Nunc eu nulla sed nisl gravida tempus. Sed sagittis rhoncus tortor, ac faucibus orci
+                consequat non. Nunc consectetur tincidunt dui placerat consequat. Sed eu blandit lacus. Vestibulum
+                posuere molestie mollis. Suis sit met interdit arcu.</p>
+        </main>
+        <div class="side" id="searchResults">
+            
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Web Page</p>
+    </footer>
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>

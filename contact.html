@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>TravelBloom</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <h2>Contact us</h2>
+            <p>Nunc eu nulla sed nisl gravida tempus. Sed sagittis rhoncus tortor, ac faucibus orci
+                consequat non. Nunc consectetur tincidunt dui placerat consequat. Sed eu blandit lacus. Vestibulum
+                posuere molestie mollis.</p>
+        </main>
+        <div class="side">
+            <form id="contactForm">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="condition">Condition</label>
+                    <input type="text" id="condition" name="condition" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" onclick="">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Web Page</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
